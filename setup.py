@@ -17,7 +17,7 @@ setup(
     author='Åke Forslund',
     author_email='ake.forslund@gmail.com',
     packages=['mycroft_porcupine_plugin'],
-    keywords='mycroft plugin tts',
+    keywords='mycroft plugin wakeword',
     entry_points={'mycroft.plugin.wake_word': PLUGIN_ENTRY_POINT},
     install_requires=['pvporcupine']
 )
