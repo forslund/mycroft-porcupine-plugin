@@ -19,5 +19,5 @@ setup(
     packages=['mycroft_porcupine_plugin'],
     keywords='mycroft plugin wakeword',
     entry_points={'mycroft.plugin.wake_word': PLUGIN_ENTRY_POINT},
-    install_requires=['pvporcupine']
+    install_requires=['pvporcupine>=1.9']
 )
