@@ -19,5 +19,7 @@ setup(
     packages=['mycroft_porcupine_plugin'],
     keywords='mycroft plugin wakeword',
     entry_points={'mycroft.plugin.wake_word': PLUGIN_ENTRY_POINT},
-    install_requires=['pvporcupine>=1.9']
+    install_requires=['pvporcupine>=1.9',
+                      'ovos-plugin-manager>=0.0.1.a8',
+                      'ovos_utils>=0.0.12a3']
 )

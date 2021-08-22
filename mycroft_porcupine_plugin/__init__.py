@@ -16,8 +16,8 @@
 from os.path import expanduser
 import struct
 
-from mycroft.client.speech.hotword_factory import HotWordEngine
-from mycroft.util.log import LOG
+from ovos_plugin_manager.templates.hotwords import HotWordEngine
+from ovos_utils.log import LOG
 
 
 class PorcupineWakeword(HotWordEngine):
