@@ -10,7 +10,7 @@ PLUGIN_ENTRY_POINT = ('porcupine_wakeword_plug = '
 
 setup(
     name='mycroft-porcupine-plugin',
-    version='0.2.0',
+    version='0.2.1',
     description='A Porcupine wakeword plugin for mycroft',
     long_description=long_description,
     long_description_content_type="text/markdown",
