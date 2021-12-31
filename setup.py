@@ -10,12 +10,12 @@ PLUGIN_ENTRY_POINT = ('porcupine_wakeword_plug = '
 
 setup(
     name='mycroft-porcupine-plugin',
-    version='0.2.1',
+    version='0.2.2',
     description='A Porcupine wakeword plugin for mycroft',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Åke Forslund',
-    author_email='ake.forslund@gmail.com',
+    author='BuiderJer',
+    author_email='builderjer@gmail.com',
     packages=['mycroft_porcupine_plugin'],
     keywords='mycroft plugin wakeword',
     entry_points={'mycroft.plugin.wake_word': PLUGIN_ENTRY_POINT},
