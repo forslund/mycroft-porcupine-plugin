@@ -18,7 +18,8 @@ Then insert a new hotword into the `hotwords` section
     "blueberry": {
       "module": "porcupine_wakeword_plug",
       "keyword_file_path": "~/.mycroft/blueberry_linux.ppn",
-      "sensitivity": 0.5
+      "sensitivity": 0.5,
+      "access_key": <your_access_key>
     }
 ```
 
