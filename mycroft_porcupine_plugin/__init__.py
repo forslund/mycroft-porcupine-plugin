@@ -27,6 +27,7 @@ class PorcupineWakeword(HotWordEngine):
         keyword_file_paths = [expanduser(x.strip()) for x in self.config.get(
             "keyword_file_path", "hey_mycroft.ppn").split(',')]
         sensitivities = self.config.get("sensitivities", 0.5)
+        access_key = self.config.get("access_key", None)
 
         try:
             import pvporcupine
@@ -46,10 +47,12 @@ class PorcupineWakeword(HotWordEngine):
         self.has_found = False
         self.num_keywords = len(keyword_file_paths)
 
+
         LOG.info(
             'Loading Porcupine using keyword path {} and sensitivities {}'
             .format(keyword_file_paths, sensitivities))
         self.porcupine = pvporcupine.create(
+            access_key,
             keyword_paths=keyword_file_paths,
             sensitivities=sensitivities)
 
