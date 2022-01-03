@@ -35,3 +35,10 @@ Porcupine ships precompiled binaries for several common platforms (x86 amd64, ra
 ## Credits
 
 The original Mycroft bindings for Porcupine was written by @Tanel.Alumae, this plugin is based upon their initial work with some updates for newer Porcupine releases.
+
+### Contributors
+
+The following people are awesome and has helped with the development of this plugin:
+
+- builderjer
+- jarbasal

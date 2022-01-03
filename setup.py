@@ -10,7 +10,7 @@ PLUGIN_ENTRY_POINT = ('porcupine_wakeword_plug = '
 
 setup(
     name='mycroft-porcupine-plugin',
-    version='0.2.1',
+    version='0.3.0',
     description='A Porcupine wakeword plugin for mycroft',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -19,7 +19,7 @@ setup(
     packages=['mycroft_porcupine_plugin'],
     keywords='mycroft plugin wakeword',
     entry_points={'mycroft.plugin.wake_word': PLUGIN_ENTRY_POINT},
-    install_requires=['pvporcupine>=1.9',
+    install_requires=['pvporcupine>=2.0.4'
                       'ovos-plugin-manager>=0.0.1.a8',
                       'ovos_utils>=0.0.12a3']
 )
